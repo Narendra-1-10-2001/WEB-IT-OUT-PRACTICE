@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  
+    .grid-container {
+    
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+ 
+}
+    input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  
+  display: inline-block;
+  
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+input[type=submit] {
+  width: 100%;
+  background-color: turquoise;
+  color: white;
+  padding: 20px 20px;
+ 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+ color: blue;
+ text-align: center;
+margin-left: 200px;
+margin-right: 200px;
+position: absolute;
+}
+div {
+  border-radius: 5px;
+  
+  padding: 20px;
+ 
+}
+img{
+    opacity: 0.5;
+}
+    #emailclass{
+       background-image: url(pngtree-university-admissions-association-recruits-new-recruits-image_169448.jpg);
+       text-align: center;
+        font-size: 20px;
+        background-position: top;
+        background-repeat: no-repeat;
+        
+    }
+    #heading{
+       
+        text-align: center;
+        font-size: 20px;
+        background-position: top;
+        background-repeat: no-repeat;
+        
+    }
+   #emailclass1{
+       text-align: center;
+       font-size: 25px;
+       margin-right: 200px;
+       margin-left: 200px;
+   }
+   #button{
+       text-align: center;
+        padding: 20px 12px;
+   }
+   .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; 
+}
+</style>
+<body>
+   
+    
+    <div id="emailclass">
+         
+    <div class="heading">
+        <h1>REGISTRATION<br>
+        FORM TEMPLATE</h1>
+    </div>
+        <div class="grid-container">
+            <div class="grid-item">
+            <form action="/action_page.php">
+                <label for="fname">Email</label>
+                <input type="text" id="fname" name="Email" placeholder="Your Email..">
+            </div>
+            <div class="grid-item">
+                <label for="lname">Phone</label>
+                <input type="text" id="lname" name="phone" placeholder="Your phone no..">
+            </div>
+            <div >
+                <input type="submit" id="button" value="TO THE NEXT STEP">
+            </div>
+        </div>
+       
+      <div id="emailclass1">
+          <h2>SIGN UP FORM</h2>
+          <P>Easily add subscribe and contact form without any server-side<br>integration</P>
+      </div>
+     <div>
+        <form action="/action_page.php">
+            <label for="fname">Email</label>
+            <input type="text" id="fname" name="Email" placeholder="Your Email..">
+          
+        </form>
+    
+     <div >
+        <input type="submit" id="button" value="SIGN ME UP!" >
+     </div>
+     </div>
+</body>
+</html>
